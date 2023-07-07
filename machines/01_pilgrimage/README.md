@@ -1,6 +1,59 @@
+## 🌳 - Project Tree
+
+``` js
+.
+├── README.md
+├── exploitation
+│   ├── CVE-2022-44268
+│   │   ├── infected_img
+│   │   │   ├── db.png
+│   │   │   ├── img.png
+│   │   │   ├── malicious.png
+│   │   │   └── malicious_db.png
+│   │   ├── response_img
+│   │   │   ├── 64a570723f9da.png
+│   │   │   └── 64a57688f407b.png
+│   │   └── script
+│   │       └── malicious_gen.py
+│   └── enumeration
+│       ├── git
+│       │   ├── source_code
+│       │   │   ├── login.php.txt
+│       │   │   └── magick
+│       │   └── tmp
+│       │       └── ...
+│       ├── gobuster
+│       │   ├── dir_common
+│       │   └── dns
+│       ├── nmap
+│       │   ├── initial.gnmap
+│       │   ├── initial.nmap
+│       │   └── initial.xml
+│       └── whatweb
+│           ├── aggressive
+│           └── stealthy
+├── privilege_escalation
+│   ├── CVE-2022-4510
+│   │   ├── binwalk_exploit.pfs
+│   │   └── exploit_binwalk.py
+│   └── enumeration
+│       ├── linenum
+│       │   └── linenum
+│       └── linpeas
+│           └── linpeas
+└── report
+    ├── notebook
+    │   ├── password.ipynb
+    │   └── walktrought.ipynb
+    └── screenshot
+        └── ...
+```
+
 # Pilgrimage
 
 ![pilgrimage.htb](report/screenshot/2023-07-04_12-23.png)
+
+
 
 ## Exploitation
 
